@@ -10,7 +10,7 @@ Projet HTML 1 est un projet de développement web , réalisé dans le cadre de l
 - Utilisation des composants Bootstrap
 - Implémentation de styles personnalisés
 - Utilisation de Visual Studio Code (VS Code) IDE
-- Utilisation de Microsoft Visual Studio
+- Utilisation de Microsoft Visual Studio 2022
 ## Autheurs
 - Cathy
 - Fred
