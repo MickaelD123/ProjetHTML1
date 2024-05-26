@@ -15,14 +15,20 @@
         .space-about {
             margin-top: 100px;
         }
+
+        .logo {
+            position: relative;
+            top: 20px;
+            left: 20px;
+        }
     </style>
 </head>
 <body>
     <!--   page:about    header  -->
 
-    <div id="header" class="container px-10 text-center">
+    <div id="header" class="mx-auto ">
+        <img class="logo" src="https://zupimages.net/up/24/21/bfyz.png" alt="logo" style="width:220px;height:124px" ;>
 
-        <p>header</p>
 
     </div>
 
@@ -30,7 +36,7 @@
 
     <div class="container overflow-hidden ">
 
-        <div class="row space-about col-md-8" >
+        <div class="row space-about ">
             <div class="col">
                 <div class="container text-align: left;"><h1>About</h1></div>
                 <div>Ut porttitor leo a diam. Quis varius quam quisque id diam. Diam quam nulla porttitor massa id. Mi sit amet mauris commodo quis imperdiet massa tincidunt nunc. At lectus urna duis convallis convallis. Orci dapibus ultrices in iaculis nunc sed augue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames. Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt. Aliquam etiam erat velit scelerisque in dictum non consectetur a. Pretium nibh ipsum consequat nisl vel pretium lectus quam id.</div>
@@ -44,13 +50,55 @@
             </div>
         </div>
     </div>
-    </div>
+    
 
     <!--   page:about    footer  -->
-    <div id="footer">
-        <div class="container  px-10 text-center">
-            footer
+    <footer class="py-3 my-4">
+        <div class="text-left">
+            <div>footer</div>
+
         </div>
-    </div>
+
+        <div>
+
+            <!--   réseaux sociaux liens+svg -->
+
+            <ul class="nav justify-content-left border-bottom pb-3 mb-3">
+
+                <li class="nav-item">
+                    <a href="https://fr-fr.facebook.com">
+                        <img src="Images/facebook.svg" alt="Facebook" style="width: 20px; height: 20px;">
+                    </a>
+                </li>
+
+
+                <li class="nav-item">
+                    <a href="https://www.linkedin.com">
+                        <img src="Images/linkedin.svg" alt="linkedin" style="width: 20px; height: 20px;">
+                    </a>
+                </li>
+
+
+                <li class="nav-item">
+                    <a href="https://www.youtube.com/">
+                        <img src="Images/youtube.svg" alt="Youtube" style="width: 20px; height: 20px;">
+                    </a>
+                </li>
+
+
+
+                <li class="nav-item">
+                    <a href="https://www.instagram.com/">
+                        <img src="Images/instagram.svg" alt="instagram" style="width: 20px; height: 20px;">
+                    </a>
+                </li>
+
+
+
+            </ul>
+
+            <p class="text-center text-body-secondary">© 2024 Irfa, Inc</p>
+        </div>
+    </footer>
 </body>
 </html>
