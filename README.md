@@ -6,11 +6,11 @@
 Projet HTML 1 est un projet de développement web , réalisé dans le cadre de la formation IRFA. Ce projet est un entraînement à la méthode Agile, avec un sprint dédié au développement d'une page HTML utilisant Bootstrap.
 
 ## Fonctionnalités
-- VS code IDE
 - Création d'une page HTML avec Bootstrap
 - Utilisation des composants Bootstrap
-- Utilisation : Visual Studio 2022
 - Implémentation de styles personnalisés
+- Utilisation de Visual Studio Code (VS Code) IDE
+- Utilisation de Microsoft Visual Studio
 
 ## Installation
 
