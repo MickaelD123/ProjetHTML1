@@ -1,5 +1,5 @@
 # Projet HTML 1
-![irfa]()
+![irfa](irfa.jpg)
 ## Description
 
 Projet HTML 1 est un projet de développement web , réalisé dans le cadre de la formation IRFA. Ce projet est un entraînement à la méthode Agile, avec un sprint dédié au développement d'une page HTML utilisant Bootstrap.
