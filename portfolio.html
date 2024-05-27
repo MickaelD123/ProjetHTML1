@@ -1,20 +1,26 @@
 ﻿<!doctype html>
 <html lang="fr">
 
-
-
-
 <head>
     <meta charset="UTF-8">
     <!-- Importe la feuille de style Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- Importe les scripts Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Jomhuria&display=swap" rel="stylesheet">
+
     <!-- View echelle -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Nom Document Page url -->
-    <title>page Projet</title>
+    <title>Portfolio</title>
     <!--La balise <style> est utilisée pour définir des styles CSS qui seront appliqués aux éléments HTML du document. -->
+
+
+
+
     <style>
         /* Définition d'une classe personnalisée pour la couleur de fond blanc sur text noir (CSS) */
         .titre {
@@ -52,62 +58,64 @@
 
         .viaformation {
             font-size: 20px; /* Taille de police de 20 pixels */
-            font-weight: bold; /* Texte en gras */
+            /*font-weight: bold; /* Texte en gras */
         }
+
         .cardcol {
             border-color: #4e8fa8; /* couleur de la bordure*/
             border-width: thick; /*epaisseur de la bordure de la card*/
             margin-bottom: 20px; /*espacement verticale ntre cards */
         }
 
-        .moitier {            
-            left: 0;          
+        .moitier {
+            left: 0;
             padding-right: 20px;
             padding-left: 20px; /*ajustement texte*/
         }
-
     </style>
 
 </head>
 <body>
     <header>
-        <!--   page:portfolio    header  -->
-        <!-- Image en haut à gauche -->
-        <img src="Images/ViaFormation.png" alt="Image d'en-tête" style="width: 300px; height: auto;">
-        <!-- Conteneur principal avec une marge supérieure -->
-        <!-- Titre en dehors de la flexbox -->
 
+        <a href="" class="mx-4"><img src="img/Viaformation.png" alt="Logo de Via Formation"></a>
 
-        <div class="container mt-5">
-
-            <!-- Conteneur flex pour centrer horizontalement le menu -->
-            <div class="d-flex justify-content-center ">
-                <!-- Lien stylé comme un bouton Bootstrap, redirige vers portfolio.html -->
-                <a class="btn btn-primary mx-2  btn-blanc" href="portfolio.html">Portfolio</a>
-                <!-- Lien stylé comme un bouton Bootstrap, redirige vers project.html -->
-                <a class="btn btn-primary mx-2  btn-blanc" href="project.html">Project</a>
-                <!-- Lien stylé comme un bouton Bootstrap, redirige vers about.html -->
-                <a class="btn btn-primary mx-2 btn-blanc " href="about.html">About</a>
-                <!-- Lien stylé comme un bouton Bootstrap, redirige vers contact.html -->
-                <a class="btn btn-primary mx-2  btn-blanc" href="contact.html">Contact</a>
-            </div>
+        <div class="d-flex justify-content-center mb-4">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-info" style="font-family: 'Jomhuria', serif;">
+                            <li class="nav-item">
+                                <a class="nav-link active fs-1 text-primary" href="Portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-1" href="Project.html">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-1" href="About.html" role="button">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-1" href="Contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </div>
     </header>
 
 
-
     <!--   page:portfolio    bloc texte -->
-   
-        <h1> Portfolio</h1>  <!-- titre qui se positionne  sur toute la largeur -->
 
-        <!--     small/medium  -->
-        
-            <div class="col-lg-6  col-sm-12 " >
-                <!--texte du portfolio qui se positonne la moitier de la page à gauche-->
-                <div class="moitier">                
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </div>
-            </div>            
+    <h1 style="font-family: 'Jomhuria', serif; font-size:90px ;"> Portfolio</h1>  <!-- titre qui se positionne  sur toute la largeur -->
+    <!--     small/medium  -->
+
+    <div class="col-lg-6  col-sm-12 ">
+        <!--texte du portfolio qui se positonne la moitier de la page à gauche-->
+        <div class="moitier">
+            <p class="card-text py-3 fs-5 mt-3" style="font-family: 'hind', sans-serif;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+    </div>
 
 
 
@@ -121,7 +129,7 @@
             <div class="card cardcol">
                 <img src="images/chat.png" alt="chat elegant" ;>
                 <div class="card-body">
-                    <p class="card-text py-3">Thiss is a cat or a wider card with supporting text below as a natural lead-in to additional content. Lorem ipsum dolor sit amet, consectetur.</p>
+                    <p class="card-text py-3 fs-5 mt-3" style="font-family: 'hind', sans-serif;">Thiss is a cat or a wider card with supporting text below as a natural lead-in to additional content. Lorem ipsum dolor sit amet, consectetur.</p>
                 </div>
             </div>
         </div>
@@ -131,7 +139,7 @@
             <div class="card cardcol">
                 <img src="images/chat.png" alt="chat elegant" ;>
                 <div class="card-body">
-                    <p class="card-text py-3">Thiss is a cat or a wider card with supporting text below as a natural lead-in to additional content. Lorem ipsum dolor sit amet, consectetur.</p>
+                    <p class="card-text py-3 fs-5 mt-3" style="font-family: 'hind', sans-serif;">Thiss is a cat or a wider card with supporting text below as a natural lead-in to additional content. Lorem ipsum dolor sit amet, consectetur.</p>
                 </div>
             </div>
         </div>
@@ -141,7 +149,7 @@
             <div class="card cardcol">
                 <img src="images/chat.png" alt="chat elegant" ;>
                 <div class="card-body">
-                    <p class="card-text py-3">Thiss is a cat or a wider card with supporting text below as a natural lead-in to additional content. Lorem ipsum dolor sit amet, consectetur.</p>
+                    <p class="card-text py-3 fs-5 mt-3" style="font-family: 'hind', sans-serif;">Thiss is a cat or a wider card with supporting text below as a natural lead-in to additional content. Lorem ipsum dolor sit amet, consectetur.</p>
                 </div>
             </div>
         </div>
@@ -151,7 +159,7 @@
             <div class="card cardcol">
                 <img src="images/chat.png" alt="chat elegant" ;>
                 <div class="card-body">
-                    <p class="card-text py-3">Thiss is a cat or a wider card with supporting text below as a natural lead-in to additional content. Lorem ipsum dolor sit amet, consectetur.</p>
+                    <p class="card-text py-3 fs-5 mt-3" style="font-family: 'hind', sans-serif;">Thiss is a cat or a wider card with supporting text below as a natural lead-in to additional content. Lorem ipsum dolor sit amet, consectetur.</p>
                 </div>
             </div>
         </div>
@@ -161,10 +169,11 @@
             <div class="card cardcol">
                 <img src="images/chat.png" alt="chat elegant" ;>
                 <div class="card-body">
-                    <p class="card-text py-3">Thiss is a cat or a wider card with supporting text below as a natural lead-in to additional content. Lorem ipsum dolor sit amet, consectetur.</p>
+                    <p class="card-text py-3 fs-5 mt-3" style="font-family: 'hind', sans-serif;">Thiss is a cat or a wider card with supporting text below as a natural lead-in to additional content. Lorem ipsum dolor sit amet, consectetur.</p>
                 </div>
             </div>
         </div>
+
 
 
 
@@ -173,15 +182,16 @@
 
     <!-- Pied de page Footer -->
     <footer>
-    <!-- Ligne Bleu Continu -->
-    <hr size="6" color="blue" />
-    <!--  Text custom CSS viaformation -->
-    <p class="viaformation">ViaFormation</p>
+        <!-- Ligne Bleu Continu -->
+        <hr size="6" color="blue" />
+        <!--  Text custom CSS viaformation -->
+        <p style="font-family: 'Jomhuria', serif; font-size:xx-large;" class="viaformation">ViaFormation</p>
         <img src="images/facebook.svg" alt="Logo Facebook" class="image-footer" style="width: 30px; height: auto;">
         <img src="images/linkedin.svg" alt="Logo Twitter" class="image-footer" style="width: 30px; height: auto;">
         <img src="images/youtube.svg" alt="Logo Youtube" class="image-footer" style="width: 30px; height: auto;">
         <img src="images/instagram.svg" alt="Logo Instagram" class="image-footer" style="width: 30px; height: auto;">
 
     </footer>
+
 </body>
 </html>
