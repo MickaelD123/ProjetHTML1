@@ -56,19 +56,18 @@
             font-size: 20px; /* Taille de police de 20 pixels */
             font-weight: bold; /* Texte en gras */
         }
-
         .cardcol {
             border-color: #4e8fa8; /* couleur de la bordure*/
             border-width: thick; /*epaisseur de la bordure de la card*/
             margin-bottom: 20px; /*espacement verticale ntre cards */
         }
 
-        .moitier {
-            left: 0;
-            width: 50%; /*positionnement du texte sur la moitier de la page */
+        .moitier {            
+            left: 0;          
             padding-right: 20px;
             padding-left: 20px; /*ajustement texte*/
         }
+
     </style>
 
 </head>
@@ -96,26 +95,27 @@
             </div>
         </div>
     </header>
+
+
+
     <!--   page:portfolio    bloc texte -->
-    <div class="container-fluid">
+   
         <h1> Portfolio</h1>  <!-- titre qui se positionne  sur toute la largeur -->
-        <div class="moitier">
-            <!--texte du portfolio qui se positonne la motier de la page a gauche-->
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-        </div>
-    </div>
+
+        <!--     small/medium  -->
+        
+            <div class="col-lg-6  col-sm-12 " >
+                <!--texte du portfolio qui se positonne la moitier de la page à gauche-->
+                <div class="moitier">                
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>
+            </div>            
+
+
 
 
     <!--   page:portfolio    card responsives -->
-    <div class="row row-cols-2 row-cols-md-2 row-cols-mb2 container mt-5 mx-auto p-20">
-
-
-
-
-
-
+    <div class="row row-cols-sd2 row-cols-md-2 row-cols-mb2 container mt-5 mx-auto p-20 justify-content-center">
 
 
         <!-- card 1-->
@@ -173,17 +173,12 @@
     </div>
 
 
-
-
-
-
-
     <!-- Pied de page Footer -->
     <footer>
-        <!-- Ligne Bleu Continu -->
-        <hr size="6" color="blue" />
-        <!--  Text custom CSS viaformation -->
-        <p class="viaformation">ViaFormation</p>
+    <!-- Ligne Bleu Continu -->
+    <hr size="6" color="blue" />
+    <!--  Text custom CSS viaformation -->
+    <p class="viaformation">ViaFormation</p>
         <img src="images/facebook.svg" alt="Logo Facebook" class="image-footer" style="width: 30px; height: auto;">
         <img src="images/linkedin.svg" alt="Logo Twitter" class="image-footer" style="width: 30px; height: auto;">
         <img src="images/youtube.svg" alt="Logo Youtube" class="image-footer" style="width: 30px; height: auto;">
