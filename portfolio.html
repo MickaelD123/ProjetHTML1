@@ -29,8 +29,19 @@
             left: 20px; /* Ajustez la valeur pour positionner horizontalement */
         }
 
-        .maxcard {
-            max-width: 300px; /* Remplacez par la valeur souhaitée */
+
+
+        .cardcol {
+            border-color: #4e8fa8; /* couleur de la bordure*/
+            border-width: thick; /*epaisseur de la bordure de la card*/
+            margin-bottom: 20px; /*espacement verticale ntre cards */
+        }
+
+        .moitier {
+            left: 0;
+            width: 50%; /*positionnement du texte sur la moitier de la page */
+            padding-right: 20px;
+            padding-left: 20px; /*ajustement texte*/
         }
     </style>
 
@@ -65,8 +76,9 @@
     </header>
     <!--   page:portfolio    bloc texte -->
     <div class="container-fluid">
-        <h1> Portfolio</h1>
-        <div>
+        <h1> Portfolio</h1>  <!-- titre qui se positionne  sur toute la largeur -->
+        <div class="moitier">
+            <!--texte du portfolio qui se positonne la motier de la page a gauche-->
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
@@ -84,63 +96,55 @@
 
 
 
-
+        <!-- card 1-->
         <div class="col">
-            <div class="card">
+            <div class="card cardcol">
                 <img src="images/chat.png" alt="chat elegant" ;>
                 <div class="card-body">
                     <p class="card-text py-3">Thiss is a cat or a wider card with supporting text below as a natural lead-in to additional content. Lorem ipsum dolor sit amet, consectetur.</p>
-                    <div class="d-flex justify-content-between align-items-left">
-
-                        <!--<small class="text-body-secondary">9 mins</small> -->
-                    </div>
                 </div>
             </div>
         </div>
 
-
+        <!-- card 2-->
         <div class="col">
-            <div class="card">
+            <div class="card cardcol">
                 <img src="images/chat.png" alt="chat elegant" ;>
                 <div class="card-body">
                     <p class="card-text py-3">Thiss is a cat or a wider card with supporting text below as a natural lead-in to additional content. Lorem ipsum dolor sit amet, consectetur.</p>
-                    <div class="d-flex justify-content-between align-items-left">
-
-                        <!--<small class="text-body-secondary">9 mins</small> -->
-                    </div>
                 </div>
             </div>
         </div>
 
+        <!-- card 3-->
         <div class="col">
-            <div class="card">
+            <div class="card cardcol">
                 <img src="images/chat.png" alt="chat elegant" ;>
                 <div class="card-body">
                     <p class="card-text py-3">Thiss is a cat or a wider card with supporting text below as a natural lead-in to additional content. Lorem ipsum dolor sit amet, consectetur.</p>
-                    <div class="d-flex justify-content-between align-items-left">
-
-                        <!--<small class="text-body-secondary">9 mins</small> -->
-                    </div>
                 </div>
             </div>
         </div>
 
-
+        <!-- card 4-->
         <div class="col">
-            <div class="card">
+            <div class="card cardcol">
                 <img src="images/chat.png" alt="chat elegant" ;>
                 <div class="card-body">
                     <p class="card-text py-3">Thiss is a cat or a wider card with supporting text below as a natural lead-in to additional content. Lorem ipsum dolor sit amet, consectetur.</p>
-                    <div class="d-flex justify-content-between align-items-left">
-
-                        <!--<small class="text-body-secondary">9 mins</small> -->
-                    </div>
                 </div>
             </div>
         </div>
 
-
-
+        <!-- card 5-->
+        <div class="col">
+            <div class="card cardcol">
+                <img src="images/chat.png" alt="chat elegant" ;>
+                <div class="card-body">
+                    <p class="card-text py-3">Thiss is a cat or a wider card with supporting text below as a natural lead-in to additional content. Lorem ipsum dolor sit amet, consectetur.</p>
+                </div>
+            </div>
+        </div>
 
 
 
