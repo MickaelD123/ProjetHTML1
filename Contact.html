@@ -23,7 +23,7 @@
         }
 
         .titre {
-            position: absolute;
+            position: static;
             top: 300px; /* Ajustez la valeur pour positionner verticalement */
             left: 20px; /* Ajustez la valeur pour positionner horizontalement */
         }
@@ -32,7 +32,7 @@
 </head>
 <body>
       <!-- Image en haut à gauche -->
-      <img src="Images/ViaFormation.png" alt="Image d'en-tête" style="width: 300px; height: auto;">
+      <img src="Images/chat.png" alt="Image d'en-tête" style="width: 300px; height: auto;">
       <!-- Conteneur principal avec une marge supérieure -->
       <!-- Titre en dehors de la flexbox -->
       
@@ -51,29 +51,30 @@
               <a class="btn btn-primary mx-2  btn-blanc" href="contact.html">Contact</a>
           </div>
       </div>
-      <hr>  
-      <h1 class="titre"> Contact </h1>
-<br
- <div class="container text-left">
-    <div class="row">
-      <div class="col">
-        <div class="mb-2">
+      <hr>
+      <br>
+      <br>
+    <div class="container text-left">
+        <div class="row">
+            <div class="col">
+                <h1 class="titre"> Contact </h1>
+                <div class="mb-2">
             <label for="exampleFormControlInput1" class="form-label">M@il</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="insérer votre mail ici">
-        </div>
-        <div class="mb-2">
+                 </div>
+            <div class="mb-2">
             <label for="exampleFormControlTextarea1" class="form-label">Rien</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="insérer Rien du tout ici"></textarea>
-        </div>
-        <div class="mb-2">
+             </div>
+             <div class="mb-2">
             <label for="exampleFormControlTextarea1" class="form-label">Votre message </label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="insérer votre message ici"></textarea>
+            </div>
+            <input class="btn btn-primary" type="submit" value="Submit">
         </div>
-        <input class="btn btn-primary" type="submit" value="Submit">
-    </div>
       <div class="col">
             <img src="c:\Users\stagiaire\Downloads\chat.png" alt="image de décoration">
       </div>
     </div>
-    </div>
+</div>
 </body>
