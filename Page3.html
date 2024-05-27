@@ -8,70 +8,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/d05fc3ff1d.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/d05fc3ff1d.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <img src="img/Viaformation.png" alt="Logo de Via Formation">
+        <a href="" class="mx-4"><img src="img/Viaformation.png" alt="Logo de Via Formation"></a>
 
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" role="button">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Contact</a>
-                        </li>
-                    </ul>
+        <div class="d-flex justify-content-center mb-4">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-info">
+                            <li class="nav-item">
+                                <a class="nav-link fs-4" aria-current="page" href="#"><strong>Portfolio</strong></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-4" href="#"><strong>Projects</strong></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active fs-4 text-primary" href="Page3.html" role="button"><strong>About</strong></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-4" href=""><strong>Contact</strong></a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
     </header>
     <main>
-        <h1>ABOUT</h1>
-
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-            deserunt mollit anim id est laborum
-        </p>
-
-        <img src="img/imgpage3.png" alt="Robot">
+        <div class="d-flex">
+            <div class="d-flex flex-column mx-5">
+                <h2>ABOUT</h2>
+                <p class="fs-5 mt-3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum
+                </p>
+            </div>
+            <img src="img/imgpage3.png" alt="Robot" class="rounded float-end rounded-5" width="480px">
+        </div>
     </main>
     <footer>
-        <hr>
+        <hr class="text-primary">
 
-        <p>
+        <p class="fs-3 mx-4">
             <strong>Via Formation</strong>
         </p>
 
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-1 gap-5 mx-3">
                         <li class="nav-item">
-                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook text-primary"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin text-primary"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a href=""><i class="fa-brands fa-youtube"></i></a>
+                            <a href=""><i class="fa-brands fa-youtube text-primary"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram text-primary"></i></a>
                         </li>
                     </ul>
                 </div>
